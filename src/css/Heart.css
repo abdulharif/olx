@@ -1,0 +1,84 @@
+/* /* .App {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fafafa;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+   */
+  @keyframes heartbeat {
+    0% {
+      transform: scale(1);
+    }
+  
+    50% {
+      transform: scale(1.25);
+    }
+  
+    100% {
+      transform: scale(1);
+    }
+  } */
+  
+  .heart {
+    color: black;
+    opacity: 0.3;
+    cursor: pointer;
+    /* width: 30px;
+    height: 30px; */
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    
+   
+  }
+  
+  .heart:hover {
+    animation: heartbeat s infinite;
+     fill: red;
+    color: red;
+    opacity: 1;
+    /* transition: opacity 500ms; */
+  }
+  
+  /* .card {
+    width: 500px;
+    height: 350px;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  .line {
+    height: 20px;
+    background-color: rgb(235, 235, 235);
+    margin: 5px;
+  }
+  
+  .line-incomplete {
+    width: 70%;
+    height: 20px;
+    background-color: rgb(235, 235, 235);
+    margin: 5px;
+  }
+  
+  .circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    margin: 5px;
+    background-color: rgb(235, 235, 235);
+  }
+  
+  .break {
+    height: 30px;
+  } */
